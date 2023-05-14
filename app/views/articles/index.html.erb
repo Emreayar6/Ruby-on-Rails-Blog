@@ -1,13 +1,20 @@
 <h1>Articles</h1>
 <ul>
-=begin
-Since we don't want to output the value returned by @articles.each, we've enclosed that code in <% %>. 
-But, since we do want to output the value returned by article.title (for each article), 
-we've enclosed that code in <%= %>.
-=end
+
+<!--Since we don't want to output the value returned by @articles.each, we've enclosed that code in <% %>. 
+#But, since we do want to output the value returned by article.title (for each article), 
+#we've enclosed that code in <%= %>-->
   <% @articles.each do |article| %>
     <li>
+    <!--
+    <a href="<%= article_path(article) %>">
+    article_path ==> '/articles/#{article.id}' 
       <%= article.title %>
+    </a> -->
+    <% #link_to will call the appropriate path helper to convert the object to a path. %>
+    <%= link_to article.title, article %>
     </li>
   <% end %>
 </ul>
+
+<%= link_to "New Article", new_article_path %>
