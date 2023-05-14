@@ -855,3 +855,200 @@ Processing by ArticlesController#show as TURBO_STREAM
 Completed 200 OK in 10ms (Views: 4.7ms | ActiveRecord: 0.2ms | Allocations: 5295)
 
 
+Started GET "/articles/new" for 127.0.0.1 at 2023-05-14 22:56:57 +0300
+Processing by ArticlesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1365)
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 15319)
+Completed 200 OK in 25ms (Views: 16.2ms | ActiveRecord: 2.4ms | Allocations: 18362)
+
+
+Started GET "/" for 127.0.0.1 at 2023-05-14 22:56:58 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:7
+  Rendered articles/index.html.erb within layouts/application (Duration: 34.3ms | Allocations: 6002)
+  Rendered layout layouts/application.html.erb (Duration: 34.6ms | Allocations: 6073)
+Completed 500 Internal Server Error in 37ms (ActiveRecord: 0.5ms | Allocations: 6476)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `update_article_path' for #<ActionView::Base:0x00000000013718>
+Did you mean?  update_rails_disk_service_path):
+    13:     </a> -->
+    14:     <% #link_to will call the appropriate path helper to convert the object to a path. %>
+    15:     <%= link_to article.title, article %>
+    16:     <%= link_to "Update Article", update_article_path %>
+    17: 
+    18:     </li>
+    19:   <% end %>
+  
+app/views/articles/index.html.erb:16
+app/views/articles/index.html.erb:7
+Started GET "/" for 127.0.0.1 at 2023-05-14 22:56:59 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:7
+  Rendered articles/index.html.erb within layouts/application (Duration: 29.5ms | Allocations: 4754)
+  Rendered layout layouts/application.html.erb (Duration: 29.7ms | Allocations: 4825)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.2ms | Allocations: 5117)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `update_article_path' for #<ActionView::Base:0x00000000013a88>
+Did you mean?  update_rails_disk_service_path):
+    13:     </a> -->
+    14:     <% #link_to will call the appropriate path helper to convert the object to a path. %>
+    15:     <%= link_to article.title, article %>
+    16:     <%= link_to "Update Article", update_article_path %>
+    17: 
+    18:     </li>
+    19:   <% end %>
+  
+app/views/articles/index.html.erb:16
+app/views/articles/index.html.erb:7
+Started GET "/" for 127.0.0.1 at 2023-05-14 22:59:02 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:7
+  Rendered articles/index.html.erb within layouts/application (Duration: 28.5ms | Allocations: 5109)
+  Rendered layout layouts/application.html.erb (Duration: 28.8ms | Allocations: 5181)
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 0.1ms | Allocations: 6176)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `update_article_path' for #<ActionView::Base:0x00000000013d80>
+Did you mean?  update_rails_disk_service_path):
+    13:     </a> -->
+    14:     <% #link_to will call the appropriate path helper to convert the object to a path. %>
+    15:     <%= link_to article.title, article %>
+    16:     <%= link_to "Update Article", update_article_path %>
+    17: 
+    18:     </li>
+    19:   <% end %>
+  
+app/views/articles/index.html.erb:16
+app/views/articles/index.html.erb:7
+Started GET "/" for 127.0.0.1 at 2023-05-14 23:00:39 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:7
+  Rendered articles/index.html.erb within layouts/application (Duration: 16.3ms | Allocations: 6538)
+  Rendered layout layouts/application.html.erb (Duration: 16.4ms | Allocations: 6610)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.8ms | Allocations: 8038)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `update_article_path' for #<ActionView::Base:0x00000000017f48>
+Did you mean?  update_rails_disk_service_path):
+    13:     </a> -->
+    14:     <% #link_to will call the appropriate path helper to convert the object to a path. %>
+    15:     <%= link_to article.title, article %>
+    16:     <%= link_to "Update Article", update_article_path %>
+    17: 
+    18:     </li>
+    19:   <% end %>
+  
+app/views/articles/index.html.erb:16
+app/views/articles/index.html.erb:7
+Started GET "/" for 127.0.0.1 at 2023-05-14 23:00:49 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:7
+  Rendered articles/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 1010)
+  Rendered layout layouts/application.html.erb (Duration: 49.0ms | Allocations: 15279)
+Completed 200 OK in 55ms (Views: 54.3ms | ActiveRecord: 0.1ms | Allocations: 16308)
+
+
+Started GET "/articles/edit/1" for 127.0.0.1 at 2023-05-14 23:00:59 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/articles/edit/1"):
+  
+Started GET "/" for 127.0.0.1 at 2023-05-14 23:03:21 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:7
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1008)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 3696)
+Completed 200 OK in 19ms (Views: 15.3ms | ActiveRecord: 0.2ms | Allocations: 4725)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2023-05-14 23:03:22 +0300
+Processing by ArticlesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 4.4ms | Allocations: 1319)
+  Rendered articles/new.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1564)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 3779)
+Completed 200 OK in 15ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 4174)
+
+
+Started GET "/articles" for 127.0.0.1 at 2023-05-14 23:03:38 +0300
+Processing by ArticlesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  ↳ app/views/articles/index.html.erb:7
+  Rendered articles/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1009)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 3689)
+Completed 200 OK in 15ms (Views: 12.8ms | ActiveRecord: 0.2ms | Allocations: 4717)
+
+
+Started GET "/articles/edit" for 127.0.0.1 at 2023-05-14 23:03:41 +0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"edit"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:7:in `show'
+Completed 404 Not Found in 4ms (ActiveRecord: 0.2ms | Allocations: 1416)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Article with 'id'=edit):
+  
+app/controllers/articles_controller.rb:7:in `show'
+Started GET "/articles/edit/1" for 127.0.0.1 at 2023-05-14 23:03:43 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/articles/edit/1"):
+  
+Started GET "/articles/edit/1" for 127.0.0.1 at 2023-05-14 23:04:26 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/articles/edit/1"):
+  
+Started GET "/articles/2" for 127.0.0.1 at 2023-05-14 23:04:29 +0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 246)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 2934)
+Completed 200 OK in 14ms (Views: 10.3ms | ActiveRecord: 0.2ms | Allocations: 4344)
+
+
+Started GET "/articles/2/edit" for 127.0.0.1 at 2023-05-14 23:04:30 +0300
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/articles_controller.rb:26:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 3.9ms | Allocations: 1417)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 5.8ms | Allocations: 1665)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 3872)
+Completed 200 OK in 15ms (Views: 11.7ms | ActiveRecord: 0.2ms | Allocations: 4682)
+
+
